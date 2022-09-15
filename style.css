@@ -22,6 +22,7 @@ body{
 .upperRight>a {
     margin: 0px 10px;
     text-decoration: none;
+    color: black;
 }
 
 .upperRight>a:active {
@@ -157,6 +158,7 @@ form {
     margin-right: 15px;
     /* margin: 0px 10px; */
     text-decoration: none;
+    color: black;
 }
 
 .upper>a:active {
