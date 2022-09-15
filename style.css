@@ -1,0 +1,275 @@
+body{
+    font-family: Arial;
+}
+
+.searchContainer {
+    /* height: 600px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding-bottom: 50px;
+
+}
+
+.upperRight {
+    /* display: flex; */
+    padding: 10px;
+    align-self: end;
+}
+
+.upperRight>a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.upperRight>a:active {
+    color: black;
+}
+
+.upperRight>a:visited {
+    color: black;
+}
+
+.upperRight>a:hover {
+    text-decoration: underline;
+}
+
+
+
+.logo {
+    padding-top: 160px;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}
+
+.logo>img {
+    width: 100%;
+    object-fit: fill;
+}
+
+
+
+form {
+    /* padding-top: 35%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.SearchBarWarpper {
+    width: 70%;
+    min-width: 450px;
+    max-width: 600px;
+    margin: 0px 5px;
+    height: 3rem;
+
+    border: 1px solid silver;
+    border-radius: 50px;
+    border-width: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap:20px */
+}
+
+
+.SearchBarWarpper>img {
+    margin: 0px 20px;
+    width: 25px;
+    height: 25px;
+    object-fit: fill;
+
+}
+
+
+.SearchBar {
+    width: 80%;
+    height: 2.5rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.SearchBarWarpper:hover {
+    box-shadow: 1px 2px silver;
+}
+
+.SearchBarWarpper:target {
+    box-shadow: 1px 2px silver;
+}
+
+
+
+
+
+
+.btn_wrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn_submit {
+    font-size: 15px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+
+    background-color: whitesmoke;
+}
+
+.btn_submit:hover {
+    cursor: pointer;
+    outline: 1px solid gray;
+}
+
+
+
+
+
+
+/* Advanced search */
+.upper{
+    width: 100%;
+    display: flex;
+    /* padding: 10px; */
+    margin: 10px;
+    /* align-self: end; */
+    justify-content: space-between;
+}
+
+.upper>img{
+    margin-left: 10px;
+    width: 90px;
+}
+
+.upper>a {
+    align-self: center;
+    margin-right: 15px;
+    /* margin: 0px 10px; */
+    text-decoration: none;
+}
+
+.upper>a:active {
+    color: black;
+}
+
+.upper>a:visited {
+    color: black;
+}
+
+.upper>a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.SearchLogoWapper{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.SearchLogo {
+    font-size: 22px;
+    font-family: Arial;
+    color: #e65555;
+}
+
+hr{
+    width: 100%;
+    text-align:left;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+.SearchBarADWarpper {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 3rem;
+    /* justify-content: space-between; */
+}
+
+.FindPage {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: Arial;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.SearchBarLine {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 10px 0rem;
+}
+
+
+
+.searchHint {
+    font-family: Arial;
+    font-size: small;
+    align-self: center;
+}
+
+.AdSearchBar {
+    width: 400px;
+    height: 1.5rem;
+
+    border: 1px solid #BFBFBF;
+    border-top: 1.5px solid gray;
+    background-color: white;
+}
+
+@media screen and (min-width: 960px){
+    .SearchBarLine {
+        width: 700px;
+    }
+
+    .AdSearchBar {
+        width: 500px;
+    }
+}
+
+
+.AdSearchBar:focus{
+    outline-color:dodgerblue; 
+    outline-width: thick;
+}
+
+
+.ADbtn_wrapper{
+    margin-top: 2rem;
+    text-align: right;
+}
+
+.btn_advanced{
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px 16px;
+    color: seashell;
+
+    background-color:dodgerblue;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn_advanced:hover{
+    cursor: pointer;
+    background-color: #1873CC;
+}
+
+
